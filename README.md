@@ -1,6 +1,8 @@
 # sortable-list-coding-challenge
 Angular.js coding challenge done entirely in 24hs
 
+##[Demo](https://brunomolteni.github.io/sortable-list-coding-challenge/)
+
 I had to follow these rules:
 
 Your task is simply to build a sortable list of items. The following are the requirements:
