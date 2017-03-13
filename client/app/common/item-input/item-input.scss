@@ -1,0 +1,31 @@
+.item-input {
+  display: flex;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+}
+.item-input__input{
+  flex: 1;
+  width: 10vw;
+  background-color: #e0e0e0;
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3) inset;
+  border: none;
+  padding: 4px 8px;
+  line-height: 30px;
+
+  &:focus{
+    outline: none;
+    background-color: #ccc;
+  }
+}
+.item-input__submit{
+  border: none;
+  flex: 0 0 auto;
+  color: #666;
+  width: 40px;
+  font-size: 1.3em;
+  &:focus{
+    outline: none;
+    background-color: #ccc;
+  }
+}
+

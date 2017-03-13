@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>IT Crowd Coding Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <base href="/">
+  </head>
+  <body ng-app="app" ng-strict-di>
+
+    <app>
+      <div id="home">
+        <h1>Sortable List Coding Challenge</h1>
+        <form class="item-input">
+          <input class="item-input__input" type="text" ng-model="value" disabled placeholder="Write here and press enter to add...">
+          <input class="item-input__submit" type="button" value="✚">
+        </form>
+        <ul class="sortable-list">
+          <li class="sortable-item loading">
+            <span class="sortable-item__handle"></span>
+            <div class="sortable-item__title">
+              <i class="sortable-item__spinner"></i>
+            </div>
+            <span class="sortable-item__close"></span>
+          </li>
+        </ul>
+      </div>
+      <!-- The same markup that is gonna be rendered once angular bootstrap the app so there's no FOUC -->
+    </app>
+
+  </body>
+</html>

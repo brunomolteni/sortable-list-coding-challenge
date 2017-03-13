@@ -1,0 +1,10 @@
+<div id="home">
+  <h1>Sortable List Coding Challenge</h1>
+  <item-input on-add="$ctrl.addItem(value)"></item-input>
+  <sortable-list  list="$ctrl.list"
+                  on-remove="$ctrl.removeItem($index)"
+                  on-edit="$ctrl.editItem($index,editedValue)"
+                  on-reorder="$ctrl.reorderList(source,target)"
+  ></sortable-list>
+  <button ng-click="$ctrl.clearList()">Flush indexedDB</button>
+</div>

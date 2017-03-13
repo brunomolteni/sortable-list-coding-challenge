@@ -1,0 +1,27 @@
+<ul class="sortable-list" >
+  <li class="sortable-item" 
+      ng-if="$ctrl.list"
+      ng-repeat="item in $ctrl.list track by item.id"
+      drag="$index"
+      ui-draggable="true"
+      ui-on-drop="$ctrl.onReorder({source:$data,target:$index})"
+      drag-handle-class="sortable-item__handle"
+      >
+    <span class="sortable-item__handle">⇅</span>
+    <input  class="sortable-item__title" 
+            ng-value="item.data" 
+            ng-model="editedValue" 
+            ng-model-options='{ debounce: 300 }' 
+            ng-change="$ctrl.onEdit({$index,editedValue})">          
+    </input>
+    <span class="sortable-item__close" ng-click="$ctrl.onRemove({$index})">✖</span>
+  </li>
+  <!-- Mock list item as loading indicator -->
+  <li class="sortable-item loading" ng-if="!$ctrl.list">
+    <span class="sortable-item__handle"></span>
+    <div class="sortable-item__title">
+      <i class="sortable-item__spinner"></i>
+    </div>
+    <span class="sortable-item__close"></span>
+  </li>
+</ul>
