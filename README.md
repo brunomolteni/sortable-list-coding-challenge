@@ -13,27 +13,27 @@ Your task is simply to build a sortable list of items. The following are the req
 
 4. This must be a one page application built using HTML5, CSS3, and Javascript.
 
-..a. No back end. No server deployment.
+  1. No back end. No server deployment.
 
-..b. Build tools are allowed. E.g. webpack, gulp, grunt.
+  2. Build tools are allowed. E.g. webpack, gulp, grunt.
 
 5. The list must be persisted to IndexedDB or WebSQL.
 
-..a. No Save button. All actions must persist automatically - Add, Delete, Edit, Move.
+  1. No Save button. All actions must persist automatically - Add, Delete, Edit, Move.
 
-..b. Include a Clear button that wipes out all the data, for testing purposes.
+  2. Include a Clear button that wipes out all the data, for testing purposes.
 
 6. Use good coding practices
 
-..a. Structure your folders and files consistently
+  1. Structure your folders and files consistently
 
-..b. No inline styles
+  2. No inline styles
 
-..c. Format your code properly
+  3. Format your code properly
 
-..d. Include comments where they will be helpful
+  4. Include comments where they will be helpful
 
-..e. It’s recommended to follow this ES2015 Angular style guide: https://github.com/toddmotto/angular-styleguide
+  5. It’s recommended to follow this ES2015 Angular style guide: https://github.com/toddmotto/angular-styleguide
 
 7. You do not have to write this from scratch. Use any freely available libraries or code snippets you wish (include citations where necessary).
 
