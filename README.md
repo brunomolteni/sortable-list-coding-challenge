@@ -33,23 +33,13 @@ Your task is simply to build a sortable list of items. The following are the req
 
 ..d. Include comments where they will be helpful
 
-..e. It’s recommended to follow this ES2015 Angular style guide:
+..e. It’s recommended to follow this ES2015 Angular style guide: https://github.com/toddmotto/angular-styleguide
 
-https://github.com/toddmotto/angular-styleguide
+7. You do not have to write this from scratch. Use any freely available libraries or code snippets you wish (include citations where necessary).
 
-7. You do not have to write this from scratch. Use any freely available libraries or code
+8. While an elaborate graphical design is not necessary, you should still make your page look nice.
 
-snippets you wish (include citations where necessary).
-
-8. While an elaborate graphical design is not necessary, you should still make your page
-
-look nice.
-
-9. Make use of the new component helper method from Angular 1.5 to create an isolated
-
-component with a clear interface through its bindings property.
-
-(https://docs.angularjs.org/guide/component)
+9. Make use of the new component helper method from Angular 1.5 to create an isolated component with a clear interface through its bindings property. (https://docs.angularjs.org/guide/component)
 
 10. This will be tested in Chrome so it's possible to use ES6/ES2015 without transpiling (Typescript or Babel are allowed too). Support of other browsers is optional.
 
